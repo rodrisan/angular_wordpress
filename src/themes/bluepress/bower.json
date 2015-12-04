@@ -4,6 +4,7 @@
   "dependencies": {
     "angular": "~1.4.8",
     "angular-route": "1.4.8",
-    "skeleton-sass": "~2.5.1"
+    "skeleton-sass": "~2.5.1",
+    "angular-sanitize": "~1.4.8"
   }
 }

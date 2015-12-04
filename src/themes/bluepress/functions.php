@@ -11,11 +11,18 @@ function bp_scripts(){
     get_stylesheet_directory_uri()  . '/bower_components/angular-route/angular-route.min.js'
   );
 
+   wp_enqueue_script(
+    'angularjs-sanitize',
+    get_stylesheet_directory_uri()  . '/bower_components/angular-sanitize/angular-sanitize.min.js'
+  );
+
   wp_enqueue_script(
     'bp-scripts',
     get_stylesheet_directory_uri() . '/js/scripts.js',
-    array( 'angularjs', 'angularjs-route' )
+    array( 'angularjs', 'angularjs-route', 'angularjs-sanitize' )
   );
+
+
 
   wp_localize_script(
     'bp-scripts',
