@@ -1,0 +1,28 @@
+{
+    "version": "4.3.1",
+    "locale": "es_ES",
+    "theme": "bluepress",
+    "plugins": [
+        {
+            "name": "json-rest-api",
+            "active": true,
+            "version": "1.2.4"
+        }
+    ],
+    "custom_plugins" : [
+
+    ],
+    "wordpress-workflow" : [
+        {
+            "dependencies-mannager": {
+            "software": "",
+            "version" : ""
+            },
+            "style-preprocessor": {
+
+            }
+        }
+    ]
+
+}
+

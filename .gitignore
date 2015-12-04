@@ -1,0 +1,6 @@
+dist/
+backup/
+*.pyc
+.vagrant
+bower_documents/
+.DS_Store
