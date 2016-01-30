@@ -18,6 +18,10 @@ app.config(['$routeProvider', '$locationProvider', function( $routeProvider, $lo
   .when('/:ID', {
     templateUrl: bpLocalized.partials + 'content.html',
     controller: 'Content'
+  })
+
+  .otherwise({
+    redirectTo: '/'
   });
 }]);
 
