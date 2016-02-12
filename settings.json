@@ -1,12 +1,12 @@
 {
-    "version": "4.3.1",
+    "version": "4.4.2",
     "locale": "es_ES",
     "theme": "bluepress",
     "plugins": [
         {
-            "name": "json-rest-api",
+            "name": "rest-api",
             "active": true,
-            "version": "1.2.4"
+            "version": "2.0-beta12"
         }
     ],
     "custom_plugins" : [
